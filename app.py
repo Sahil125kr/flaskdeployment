@@ -22,7 +22,7 @@ def ind():
 @app.route('/about', methods = ['GET', 'POST'])
 def about():
     print("page open")
-    return render_template('about.html')
+    return render_template('About.html')
 
 @app.route('/courses', methods = ['GET', 'POST'])
 def courses():
